@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Payment Gateway Integration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="sparks.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sparks Foundation</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About Us
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="mission.html">Our Mission</a></li>
+                  <li><a class="dropdown-item" href="principle.html">Guiding Principles</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="big-heading">
+              “We must give more in order to get more. It is the generous giving
+              of ourselves that produces the generous harvest.”
+            </h1>
+            <div>
+    <div style="margin-top:25vh;">
+        <div class="container d-flex align-items-center justify-content-center mb-5">
+      <form style="border: 10px solid;border-image-slice: 1;border-width: 5px;padding:40px;border-image-source: linear-gradient(to left, #4b9625, #007bff);box-shadow: 0px 1px 11px 0px #dc3545;" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+           <input type="hidden" name="cmd" value="_cart">
+              <input type="hidden" name="upload" value="1">
+              <input type="hidden" name="business" value="fakebusiness1264@gmail.com">
+              
+              <div class="form-group">
+                  <label style="font-size: 25px ;font-weight:800;font-family: 'Abel', sans-serif !important;" for="amount"> Donate amount  <i class="fa fa-dollar"></i></label>
+                  <input type="number" class="form-control" name="amount_1"  id="amount" required   placeholder="Enter amount">
+                 
+                </div>
+              <input type="hidden" name="item_name_1" value="donate">
+              <input type="hidden" name="quantity_1" value="1">
+              <input type="submit" style="font-family: 'Abel', sans-serif !important;font-size: 20px ;font-weight:600;" class="btn btn-secondary" value="Send Money" >
+              </form>
+          </div>
+      
+          <ul class="socialIcons">
+              <li class="linkedin"><a href="https://www.linkedin.com/in/saatwik-choudhary-465b441a6/" target="_saatwik"><i class="fa fa-fw fa-linkedin"></i>Linkedin</a></li>
+              <li class="instagram"><a href="https://www.instagram.com/saatwik_007012/" target="_saatwik"><i class="fa fa-fw fa-instagram"></i>Instagram</a></li>
+              <li class="github"><a href="https://github.com/Saatwikkk" target="_saatwik"><i class="fa fa-fw fa-github"></i>Github</a></li>
+              <li class="facebook"><a href="https://www.facebook.com/profile.php?id=100008434150243" target="_saatwik"><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
+              <li class="twitter"><a href="https://twitter.com/Saatwik120107" target="_saatwik"><i class="fa fa-fw fa-twitter"></i>Twitter</a></li>
+            </ul>
+          </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

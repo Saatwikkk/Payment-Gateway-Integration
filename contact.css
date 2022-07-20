@@ -1,0 +1,107 @@
+.contact {
+   align-items: center;
+    display: block;
+    color: white;
+    padding: 0px 25%;
+    background-color: white;
+    background: white;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7bfbe, #E6E6FA );
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  gray, white );
+    padding-top: 50px;
+  }
+  
+  .contact h2 {
+    display: block;
+    width: 250px;
+    justify-content: center;
+    margin: 0px auto;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 40px;
+  }
+  
+  .contact h2:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  
+  .contact p {
+    font-weight: bolder;
+    font-size: 2rem;
+    display: block;
+    text-align: right;
+    padding-right: 8rem;
+    margin-top: 5rem;
+    color: black;
+  }
+  
+  @media only screen and (min-width: 800px)  {
+  
+  
+  .avatar {
+    width: 500px;
+    height: 500px;
+    margin-top: -22rem;
+    margin-left: 100px;
+    background: url('images/contact_illustration.png');
+    background-size: contain;
+    transition: all .3s linear;
+    transform-origin: 50%;
+  }
+  }
+  .contbutton {
+    display: block;
+    text-align: right;
+  }
+  
+  .contbutton input{
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+    outline: none;
+    margin-right: 13rem;
+    border-radius: 36px;
+    padding: 8px 30px;
+    text-decoration: none;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(61, 61, 61);
+  }
+  .question{
+  padding-right: 1rem;
+  margin-top: 0.5rem;
+  outline: none;
+  margin-right: 3.3rem;
+  border-radius: 36px;
+  padding: 8px 30px;
+  text-decoration: none;
+  background-color: rgb(238, 238, 238);
+  border: 1px solid rgb(61, 61, 61);
+  }
+  
+  .subbtn {
+    display: block;
+    text-align: right;
+    padding-top: 10px;
+  }
+  
+  .subbtn button {
+    display: inline-block;
+    width: 265px;
+    height: 45px;
+    border: none;
+    text-align: center;
+    margin-right: 13rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background: gray;
+    box-shadow: inset 5px 5px 10px black, inset -5px -5px 10px black;
+    border-radius: 30px;
+  }
+  
+  .subbtn :hover {
+    background-color: white;
+    font-size: 1.6rem;
+  }

@@ -1,1 +1,1 @@
-# Payment-Gteway-Integration
+# Payment-Gateway-Integration
